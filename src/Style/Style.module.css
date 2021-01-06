@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color:purple;
+    color:greenyellow;
+}
+.memoryHeading{
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+    text-decoration: underline;
+    text-decoration-color: greenyellow;
+}
+
+.memoryContainer{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+
+.removeButton{
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+    
+    
+
+}
+
+.removeButton button{
+
+    font-size: 25px;
+    margin:30px;
+    width:auto;
+    padding:10px;
+    background-color: red;
+    color:whitesmoke;
+    border:none;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+
+
+
+.image{
+     display: block;
+  max-width:300px;
+  max-height:300px;
+  width: auto;
+  height: auto
+    
+}
