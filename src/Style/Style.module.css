@@ -1,79 +1,75 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Nanum Pen Script', cursive;
-    background-color:#E98A15;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Nanum Pen Script", cursive;
+  background-color: #e98a15;
 }
 
-.container{
-    background-color:#E98A15;
-    color:#003b36;
-    text-shadow: 1px 1px 4px #ece5f0;
-    margin:0 20px;
+.container {
+  background-color: #e98a15;
+  color: #003b36;
+  text-shadow: 1px 1px 4px #ece5f0;
+  margin: 0 20px;
 }
-.memoryHeading{
-    font-size: 40px;
-    text-align: center;
-    margin: 30px;
-    text-transform: uppercase;
-    text-decoration-color: #003b36;
-    color:#003b36;
-    text-shadow: 3px 3px 4px #ece5f0;
-}
-
-.memory{
-    font-size:35px;
+.memoryHeading {
+  font-size: 40px;
+  text-align: center;
+  margin: 30px;
+  text-transform: uppercase;
+  text-decoration-color: #003b36;
+  color: #003b36;
+  text-shadow: 3px 3px 4px #ece5f0;
 }
 
-.memoryContainer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    justify-items: center;
-    align-items: center;
-    border: 1.5px dotted  #59114d;
-    border-radius:50px;
-  -webkit-box-shadow: 3px 3px 11px 0px  #59114d;
--moz-box-shadow:    3px 3px 11px 0px  #59114d;
-box-shadow:         3px 3px 11px 0px  #59114d;
-    padding:10px;
-    margin-bottom: 10px;
+.memory {
+  font-size: 35px;
 }
 
-.removeButton{
-    display: flex;
-    justify-content:space-around;
-    align-items:center;
-    
-    
-
+.memoryContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  align-items: center;
+  border: 1.5px dotted #59114d;
+  border-radius: 50px;
+  -webkit-box-shadow: 3px 3px 11px 0px #59114d;
+  -moz-box-shadow: 3px 3px 11px 0px #59114d;
+  box-shadow: 3px 3px 11px 0px #59114d;
+  padding: 10px;
+  margin-bottom: 10px;
 }
 
-.removeButton button{
-
-    font-size: 25px;
-    margin:30px;
-    width:auto;
-    padding:10px;
-    background-color: red;
-    color:whitesmoke;
-    border:none;
-    border-radius: 5px;
-    cursor: pointer;
-
+.removeButton {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.removeButton button:hover{
-   transform: scale(1.25);
-}
-
-
-
-.image{
-     display: block;
-  max-width:300px;
-  max-height:300px;
+.removeButton button {
+  font-size: 25px;
+  margin: 30px;
   width: auto;
-  height: auto
-    
+  padding: 10px;
+  background-color: red;
+  color: whitesmoke;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removeButton button:hover {
+  transform: scale(1.25);
+}
+
+.image {
+  display: block;
+  max-width: 300px;
+  max-height: 300px;
+  width: auto;
+  height: auto;
+  border-radius: 25px;
+  -webkit-box-shadow: 3px 3px 11px 0px #59114d;
+  -moz-box-shadow: 3px 3px 11px 0px #59114d;
+  box-shadow: 3px 3px 11px 0px #59114d;
 }

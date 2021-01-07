@@ -6,7 +6,7 @@ import DispalyData from './DispalyData'
 
 function Display() {
   const [data,setData]=useState(Data)
-  console.log(data)
+      console.log(data)
       const removeMemory=(id)=>{
       setData((oldData)=>{
           let newData = oldData.filter((newData) => newData.id !== id);
