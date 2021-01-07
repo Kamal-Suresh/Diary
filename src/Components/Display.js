@@ -16,11 +16,28 @@ function Display() {
     return (
       <div>
         <div className="container">
-          <h1 style={{textAlign: 'center',padding:"40px",backgroundColor:"purple",color:"greenyellow"}}>DIARY</h1>
-          {data.map((datas)=>{
-              return <DispalyData key={datas.id} img={datas.img} memory={datas.memory} id={datas.id} removeMemory={()=>removeMemory(datas.id)} />;
+          <h1
+            style={{
+              textAlign: "center",
+              padding: "40px",
+              fontSize: "60px",
+              color: "#003b36",
+              textShadow: "2px 2px 5px #ece5f0",
+            }}
+          >
+            DIARY
+          </h1>
+          {data.map((datas) => {
+            return (
+              <DispalyData
+                key={datas.id}
+                img={datas.img}
+                memory={datas.memory}
+                id={datas.id}
+                removeMemory={() => removeMemory(datas.id)}
+              />
+            );
           })}
-         
         </div>
       </div>
     );
