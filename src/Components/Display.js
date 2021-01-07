@@ -4,6 +4,8 @@ import DispalyData from './DispalyData'
 
 
 
+
+
 function Display() {
   const [data,setData]=useState(Data)
       console.log(data)

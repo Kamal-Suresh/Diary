@@ -7,7 +7,7 @@
 }
 
 .container {
-  background-color: #e98a15;
+  /* background-color: ; */
   color: #003b36;
   text-shadow: 1px 1px 4px #ece5f0;
   margin: 0 20px;
@@ -24,6 +24,7 @@
 
 .memory {
   font-size: 35px;
+ 
 }
 
 .memoryContainer {
@@ -36,7 +37,7 @@
   -webkit-box-shadow: 3px 3px 11px 0px #59114d;
   -moz-box-shadow: 3px 3px 11px 0px #59114d;
   box-shadow: 3px 3px 11px 0px #59114d;
-  padding: 10px;
+  padding: 30px;
   margin-bottom: 10px;
 }
 
@@ -72,4 +73,61 @@
   -webkit-box-shadow: 3px 3px 11px 0px #59114d;
   -moz-box-shadow: 3px 3px 11px 0px #59114d;
   box-shadow: 3px 3px 11px 0px #59114d;
+  cursor: pointer;
+}
+
+
+.popupContainer{
+
+  position:fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.7);
+  z-index: 1000;
+  
+}
+
+.overlayy{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  width: 500px;
+  height: 600px;
+  padding:20px;
+  z-index: 1000;
+  border-radius:25px;
+ 
+}
+
+
+.overlayy img{
+  display: block;
+  height: 100%;
+  width:100%;
+  object-fit: contain;
+  
+}
+
+.overlayy .closeBtn{
+  position: absolute;
+  top:3%;
+  right: 3%;
+  padding:5px;
+  color:#ece5f0;
+  background-color: red;
+  border:none;
+  cursor: pointer;
+  font-size: 22px;
+  border-radius: 5px;
+ 
+  
+}
+
+.overlayy .closeBtn:hover{
+ 
+ transform: scale(1.35);
+  
 }
